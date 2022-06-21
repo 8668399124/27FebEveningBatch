@@ -54,7 +54,13 @@ public class FlipkartTest {
 		// Assert.assertEquals(text, expectedText);
 		 softAssert.assertAll();
 	}
-	
+	@Test
+	public void  loginwithout() {
+	 FlipkartLoginPage flip = new FlipkartLoginPage (driver);
+		 flip.EnterPassword();
+		 flip.ClickOnLogin();
+		
+	}
 	
 	
 	
